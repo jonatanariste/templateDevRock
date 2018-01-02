@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>Template Escuela DevRock</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia openSans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4"><img src="images/logo.svg" alt=""></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera'>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="">Servicios</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text">
+	<div class="col-md-8 cta"><h1>Template Escuela De Rock</h1> 
+			<h4>Este template es para que hagas tu primer pagina web.</h4>
+			<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+<button  type="button" class="btn btn-primary orange">ESCCUCHA CULEBRRA</button>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange">
+	<div class="container">
+		<h1>Sobre nosotros</h1>
+		<p>Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+
+</p>
+	</div>
+</div>
+
+
+<div class="container servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros Servicios</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/001-deal.svg" alt="">
+			<h3>Buen trato</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/002-analytics.svg" alt="">
+			<h3>Buen trato</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/003-social-media.svg" alt="">
+			<h3>Buen trato</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/004-network.svg" alt="">
+			<h3>Buen trato</h3>
+			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>Conctactanos</h1><br><br>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<div class="row social">
+					<div class="col-md-4"><a href=""><img src="images/001-mail.svg" alt=""></a></div>
+					<div class="col-md-4"><a href="https://www.instagram.com/jonatanariste/"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+					<div class="col-md-4"><a href=""><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				
+			</div>
+		</div>
+	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	$('nav a').click(function(e){				
+		e.preventDefault();		//evitar el eventos del enlace normal
+		var strAncla=$(this).attr('href'); //id del ancla
+			$('body,html').stop(true,true).animate({				
+				scrollTop: $(strAncla).offset().top
+			},1000);
+		
+	});
+</script>
+</body>
+</html>
