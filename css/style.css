@@ -142,4 +142,12 @@ and (max-device-width : 736px) { }
   .botonera li a {
     font-size: 13px;
 }
+.nosotros{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 15px;
+}
+#home{
+	padding-top: 65px;
+}
 }
