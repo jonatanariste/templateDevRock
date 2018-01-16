@@ -32,7 +32,7 @@ header{
 .principal{
 	background: red;
 	height: 90vh;
-	background: url(../images/background.png)no-repeat center center fixed; 
+	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,21 +60,21 @@ h1{
 
 .orange{
 
-	background: #FF5722;
+	background: #FF00FF;
 }
 
 .nosotros{
 	width: 100%;
-	height: 30vh;
+	height: 50vh;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 150px;
 }
 .nosotros h1{
 	font-weight: 100;
 }
 .servicios{
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 150px;
 	padding-bottom: 50px;
 }
 .servicios img{
@@ -110,4 +110,36 @@ footer{
 footer h1{
 	text-align: center;
 	font-weight: 100;
+}
+
+#home {
+	color: white;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles */
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 13px;
+}
 }

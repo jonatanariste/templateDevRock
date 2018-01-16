@@ -3,45 +3,49 @@
 <head>
 	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
 	<meta charset="UTF-8">
-	<title>Template Escuela DevRock</title>
+	<title>Malicius Culebra</title>
 	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<!-- codigo de colores y estilos escrito por nosotros -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Tipografia openSans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
 </head>
 <!-- <body> Todo lo que se ve en la pantalla del usuario -->
 <body>
 <header>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-4"><img src="images/logo.svg" alt=""></div>
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home"><img src="images/logo.svg" alt=""></a></div>
 			<div class="col-md-3"></div>
 			<div class="col-md-5">
 				<ul class='botonera'>
-					<li><a href="">Nosotros</a></li>
-					<li><a href="">Servicios</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Contacto</a></li>
+					<li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
+					<li><a href="#servicios" data-ancla="servicios">Productos</a></li>
+					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+
 				</ul>
+
 			</div>
 		</div>
 	</div>
 </header>
 
-<div class="principal vertical-centered-text">
-	<div class="col-md-8 cta"><h1>Template Escuela De Rock</h1> 
-			<h4>Este template es para que hagas tu primer pagina web.</h4>
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>Malicius Culebra</h1> 
+			<h4>Somos banda under de Berazategui y estamos sacando un nuevo disco</h4>
 			<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-<button  type="button" class="btn btn-primary orange">ESCCUCHA CULEBRRA</button>
+<a  href="https://open.spotify.com/artist/2tYH34FkTCemctfG3gChQE" class="btn btn-primary orange">ESCCUCHA CULEBRRA</a>
 
 
 		</div>
 </div>
 
-<div class="nosotros orange">
+<div class="nosotros orange" id="nosotros">
 	<div class="container">
 		<h1>Sobre nosotros</h1>
 		<p>Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
@@ -51,31 +55,31 @@
 </div>
 
 
-<div class="container servicios">
+<div class="container servicios" id="servicios">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Nuestros Servicios</h1>
+			<h1>Nuestros Servicios Locos</h1>
 		</div>
 	</div>
 	<div class="row images">
 		<div class="col-md-3">
-			<img src="images/001-deal.svg" alt="">
-			<h3>Buen trato</h3>
+			<img src="images/001-electric-guitar-1.svg" alt="">
+			<h3>Extremo</h3>
 			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
 		</div>
 		<div class="col-md-3">
-			<img src="images/002-analytics.svg" alt="">
-			<h3>Buen trato</h3>
+			<img src="images/002-electric-guitar.svg" alt="">
+			<h3>Satanicos</h3>
 			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
 		</div>
 		<div class="col-md-3">
-			<img src="images/003-social-media.svg" alt="">
-			<h3>Buen trato</h3>
+			<img src="images/003-maloik.svg" alt="">
+			<h3>Metal Loco</h3>
 			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
 		</div>
 		<div class="col-md-3">
-			<img src="images/004-network.svg" alt="">
-			<h3>Buen trato</h3>
+			<img src="images/004-rock-symbol-of-a-hand.svg" alt="">
+			<h3>Rock Duro</h3>
 			<p>Start Bootstrap has everything you need to get your new website up and running in no time!</p>
 		</div>
 	</div>
@@ -83,42 +87,44 @@
 </div>
 
 <footer>
-	<div class="container">
+	<div class="container" id="contacto">
 		<div class="row">
 			<div class="col-md-12">
-					<h1>Conctactanos</h1><br><br>
+					<h1>CONTACTO</h1><br><br>
 
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-6">
-				<div class="row social">
-					<div class="col-md-4"><a href=""><img src="images/001-mail.svg" alt=""></a></div>
-					<div class="col-md-4"><a href="https://www.instagram.com/jonatanariste/"><img src="images/002-facebook-logo.svg" alt=""></a></div>
-					<div class="col-md-4"><a href=""><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				
-			</div>
-		</div>
-	
+		<div class="row social">
+		<div class="col-3"></div>	
+					<div class="col-2">
+						<a href="mailto:contacto@maliciusculebra.com"><img src="images/001-mail.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="https://www.facebook.com/maliciousculebrametal"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/jonatanariste/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
 	</div>
 </footer>
 <!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 <script>
-	$('nav a').click(function(e){				
-		e.preventDefault();		//evitar el eventos del enlace normal
-		var strAncla=$(this).attr('href'); //id del ancla
-			$('body,html').stop(true,true).animate({				
-				scrollTop: $(strAncla).offset().top
-			},1000);
-		
-	});
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
 </script>
 </body>
 </html>
