@@ -150,4 +150,13 @@ and (max-device-width : 736px) { }
 #home{
 	padding-top: 65px;
 }
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
+
 }
