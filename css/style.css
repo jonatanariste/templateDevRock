@@ -3,6 +3,9 @@ body{
 	font-family: 'Open Sans', sans-serif;
 
 }
+.logo{
+	width: 40px;
+}
 
 .botonera li{
 	display: inline-block;
