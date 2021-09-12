@@ -4,7 +4,7 @@ body{
 
 }
 .logo{
-	width: 40px;
+	width: 150px;
 }
 
 .botonera li{
@@ -30,12 +30,13 @@ header{
 	position: fixed;
 	width: 100%;
 	z-index: 34242;
+	height: 6%;
 }
 
 .principal{
 	background: red;
 	height: 90vh;
-	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
+	background: url(../images/amtischfondo3.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -63,7 +64,7 @@ h1{
 
 .orange{
 
-	background: #FF00FF;
+	background: #dd1e2f;
 }
 
 .nosotros{
