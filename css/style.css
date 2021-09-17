@@ -1,165 +1,175 @@
-body{
+body {
 	background: #eeeeee;
 	font-family: 'Open Sans', sans-serif;
-
-}
-.logo{
-	width: 40px;
+	color: black;
 }
 
-.botonera li{
+.logo {
+	width: 175px;
+}
+
+.botonera li {
 	display: inline-block;
 	margin-left: 8px;
 	font-weight: 700;
 	font-size: 20px;
 }
-.botonera li a{
-	color: #666;
 
+.botonera li a {
+	color: #666;
 }
-.botonera li a:hover{
+
+.botonera li a:hover {
 	color: black;
 	text-decoration: none;
 }
 
-
-header{
-	background: white; 
+header {
+	background: white;
 	padding-top: 15px;
 	padding-bottom: 10px;
 	position: fixed;
 	width: 100%;
 	z-index: 34242;
+	height: 8%;
 }
 
-.principal{
+.principal {
 	background: red;
 	height: 90vh;
-	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(../images/amtischfondo3.jpg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-
 
 .vertical-centered-text {
-  -ms-display: flex;
-  display: flex;
-  /* alineacion vertical */
-  align-items: center;
-   /* alineacion horizontal */
-  justify-content: center;
+	-ms-display: flex;
+	display: flex;
+	/* alineacion vertical */
+	align-items: center;
+	/* alineacion horizontal */
+	justify-content: center;
 }
 
-.cta{
+.cta {
 	text-align: center;
 }
-h1{
+
+h1 {
 	font-weight: 700;
 	font-size: 50px;
-	color: rgba(255,255,255,.7);
+	color: white;
 }
 
-.orange{
-
-	background: #FF00FF;
+.orange {
+	background: #811d25;
 }
 
-.nosotros{
+.nosotros {
 	width: 100%;
 	height: 50vh;
 	text-align: center;
 	padding-top: 150px;
 }
-.nosotros h1{
+
+.nosotros h1 {
 	font-weight: 100;
 }
-.servicios{
+
+.servicios {
 	text-align: center;
 	padding-top: 150px;
 	padding-bottom: 50px;
 }
-.servicios img{
+
+.servicios img {
 	width: 40%;
 	text-align: center;
 }
 
-.servicios h1{
+.servicios h1 {
 	color: #666;
 	font-weight: 100;
 }
-.servicios .images{
+
+.servicios .images {
 	padding-top: 30px;
 }
 
-.images .col-md-3{
+.images .col-md-3 {
 	padding-top: 20px;
-
 }
-.social{
+
+.social {
 	text-align: center;
 }
-.social img{
+
+.social img {
 	width: 30%;
 	text-align: center;
 }
 
-footer{
+footer {
 	background: #757575;
-	height: 50vh;
+	height: 25vh;
 	padding-top: 30px;
 }
-footer h1{
+
+footer h1 {
 	text-align: center;
 	font-weight: 100;
 }
 
-#home {
-	color: white;
-}
-.col-xs-4{
-	text-align: center;
+.btn-primary{
+	border-color: black;
 }
 
+#home {
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.col-xs-4 {
+	text-align: center;
+}
 
 /*@media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) { }
 @media only screen and (min-width: 324px) and (max-width: 736px) {*/
+
 @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
-  /* iPhone only */
-  /* Styles */
-  .off {
-    display: none !important;
-  }
-  .on {
-    display: block !important;
-  }
-  .col-md-2 {
-    width: 100%;
-  }
-  .social img{
-  	width: 100%;
-  }
-  .botonera li a {
-    font-size: 13px;
-}
-.nosotros{
-	height: 400px;
-	overflow: hidden;
-	padding-top: 15px;
-}
-#home{
-	padding-top: 65px;
-}
-
-h1{
-	font-size: 30px;
-}
-
-footer{
-	padding-top: 10px;
-}
-
+	/* iPhone only */
+	/* Styles */
+	.off {
+		display: none !important;
+	}
+	.on {
+		display: block !important;
+	}
+	.col-md-2 {
+		width: 100%;
+	}
+	.social img {
+		width: 100%;
+	}
+	.botonera li a {
+		font-size: 13px;
+	}
+	.nosotros {
+		height: 400px;
+		overflow: hidden;
+		padding-top: 15px;
+	}
+	#home {
+		padding-top: 65px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	footer {
+		padding-top: 10px;
+	}
 }
